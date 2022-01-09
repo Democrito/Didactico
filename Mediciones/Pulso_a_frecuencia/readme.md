@@ -11,7 +11,7 @@ Como solo se obtiene la mitad del periodo, se debe multiplicar por 2 para obtene
 
 P = (Tr x 2) µs
 
-El periodo es el intervalo de tiempo entre picos sucesivos de una forma de onda periódica. Generalmente se representa por la letra mayúscula T.
+El periodo es el intervalo de tiempo entre picos sucesivos en forma de onda periódica. Generalmente se representa por la letra mayúscula T.
 
 La frecuencia es la cantidad de periodos que ocurren en un segundo.
 
@@ -37,7 +37,7 @@ F = 1,000,000/4 x (325)
 
 F = 250,000/(325)
 
-Esta equivalencia resulta menos compleja, pero aun seguimos teniendo problemas pues no existe la cantidad (250,000. Podemos entonces:
+Esta equivalencia resulta menos compleja, pero aun seguimos teniendo problemas pues no existe la cantidad 250,000. Podemos entonces:
 
 F = (25,000/(325))x 10
 
