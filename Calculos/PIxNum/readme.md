@@ -26,7 +26,7 @@ Resultado = (150 * h0324) / 256 ----> Si traducimos la parte hexadecimal a decim
 
 Resultado es 471. Comprueba con la calculadora que 3.141592 * 150 = 471.238898038 pero sólo estamos buscando el valor entero que es 471.
 
-Es más seguro utilizar el numero hexadecimal h0324 como constante equivalente de Pi. El valor Hexadecimal h0324 es realmente en valor decimal 3.14063 con relación a Pi, realmente es 3.14159 pero existe una diferencia de menos del 0.1%. Esto para la mayoría de casos es menos que despreciable.
+Es más seguro utilizar el numero hexadecimal h0324 como constante equivalente de Pi. El valor hexadecimal h0324 es realmente en valor decimal 3.14063 con relación a Pi, realmente es 3.14159 pero existe una diferencia de menos del 0.1%. Esto para la mayoría de casos es menos que despreciable.
 
 
-Fuente original en el PDF que se encuentra aquí: https://github.com/Democrito/Didactico/blob/main/Calculos/adjuntos/BSManSpanish.pdf (No he encontrado en la web oficial este archivo y por ello lo he subido aquí, aunque en inglés seguramente es fácil de encontrar).
+Fuente original en el PDF que se encuentra aquí: https://github.com/Democrito/Didactico/blob/main/Calculos/adjuntos/BSManSpanish.pdf (No he encontrado en la web oficial este archivo y por ello lo he subido aquí, aunque en inglés lo más parecido lo he visto [aquí](https://www.egr.msu.edu/classes/me456/radcliff/homework/BSM-v2.2.pdf)).
