@@ -2,6 +2,8 @@
 
 **Iré añadiendo algoritmos del tipo CORDIC, de momento sólo está para senos y cosenos. De lo que se trata es de sólo usar sumas, desplazamientos y una pequeña tabla (no mayor de 14 valores) para conseguir resolver ciertas operaciones matemáticas. Yo pruebo este tipo de algoritmos primero con programación y después lo paso a electrónica digital a través del programa gráfico ICEstudio.**
 
+![](https://github.com/Democrito/Didactico/blob/main/CORDIC/BASIC/img/screen_ouput.PNG)
+
 "SinCos.bas" es un programa hecho en BASIC (FreeBASIC) para resolver senos y cosenos utilizando muy pocos recursos. Tiene una precisión de dos decimales, el tercer decimal se acerca pero rara vez coincide. Sin embargo esto significa un error de menos de 0.1%, donde para la mayoría de las aplicaciones que le podamos dar es más que suficiente.
 
 "SinCos.exe" es el ejecutable para Windows. Para comprobar que el programa no contiene virus ni troyanos puedes comprobarlo desde esta web:
