@@ -1,6 +1,6 @@
 # CORDIC digital en punto fijo.
 
-**Iré añadiendo algoritmos del tipo CORDIC, de momento sólo está para senos y cosenos. De lo que se trata es de sólo usar sumas, desplazamientos y una pequeña tabla (no mayor de 14 valores) para conseguir resolver ciertas operaciones matemáticas. Yo pruebo este tipo de algoritmos primero con programación y después lo paso a electrónica digital a través del programa gráfico ICEstudio.**
+**Iré añadiendo algoritmos del tipo CORDIC, de momento sólo está para senos y cosenos. De lo que se trata es de sólo usar sumas, desplazamientos y una pequeña tabla (no mayor de 15 valores) para conseguir resolver ciertas operaciones matemáticas. Yo pruebo este tipo de algoritmos primero con programación y después lo paso a electrónica digital a través del programa gráfico ICEstudio.**
 
 ![](https://github.com/Democrito/Didactico/blob/main/CORDIC/BASIC/img/screen_ouput.PNG)
 
