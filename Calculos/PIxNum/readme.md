@@ -27,4 +27,4 @@ Resultado es 471. Comprueba con la calculadora que 3.141592 * 150 = 471
 Es más seguro utilizar el numero Hexadecimal h0324 como constante equivalente de pi Π. El valor Hexadecimal h0324 es realmente en valor decimal 3.14063 con relación al pi Π, original que es 3.14159, existe una diferencia de menos del 0.1%. Esto para la mayoría de casos es menos que despreciable.
 
 
-Fuente original en el PDF que se encuentra aquí: BSManSpanish.pdf
+Fuente original en el PDF que se encuentra aquí: https://github.com/Democrito/Didactico/blob/main/Calculos/adjuntos/BSManSpanish.pdf
