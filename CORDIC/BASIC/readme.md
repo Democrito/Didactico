@@ -4,7 +4,7 @@
 
 "SinCos.bas" es un programa hecho en BASIC (FreeBASIC) para resolver senos y cosenos utilizando muy pocos recursos. Tiene una precisión de dos decimales, el tercer decimal se acerca pero rara vez coincide. Sin embargo esto significa un error de menos de 0.1%, donde para la mayoría de las aplicaciones que le podamos dar es más que suficiente.
 
-"SinCos.exe" es el ejecutable para Windows de dicho programa. Para comprobar que el programa no contiene virus ni troyanos puedes comprobarlo desde esta web:
+"SinCos.exe" es el ejecutable para Windows. Para comprobar que el programa no contiene virus ni troyanos puedes comprobarlo desde esta web:
 
 https://virusscan.jotti.org/
 
