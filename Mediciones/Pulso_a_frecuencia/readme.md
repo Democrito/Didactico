@@ -41,5 +41,6 @@ Esta equivalencia resulta menos compleja, pero aun seguimos teniendo problemas p
 
 F = (25,000/(325))x 10
 
-Si eliminamos un cero a la cantidad de 250,000 el resultado seria 25,000 la cual es una cantidad manejable menor de 16 Bits, luego se divide con la variable (325) y el resultado de la división le agregamos
-el cero multiplicando por 10.
+Si eliminamos un cero a la cantidad de 250,000 el resultado seria 25,000 la cual es una cantidad manejable menor de 16 Bits, luego se divide con la variable (325) y el resultado de la división le agregamos el cero multiplicando por 10.
+
+Fuente original en el PDF que se encuentra aquí: https://github.com/Democrito/Didactico/blob/main/Calculos/adjuntos/BSManSpanish.pdf
