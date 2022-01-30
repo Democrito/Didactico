@@ -2,7 +2,7 @@ Declare Sub dec256(ByVal As Integer)
 
 Dim Shared As Integer ATAN_Table(0 To 14) => {11520, 6801, 3593, 1824, 916, 458, 229, 115, 57, 28, 14, 7, 4, 2, 1}
 
-Dim Shared As Integer angle, desiredAngle, X, Y, Xnew, Ynew, i, cose, sine
+Dim Shared As Integer angle, desiredAngle, X, Y, Xnew, Ynew, i, cose, sine ' Integer = signed 32 bits
 
 
 Input "Angle: ", angle
@@ -15,8 +15,8 @@ angle = 0
 Y     = 0
 X     = 155                         ' 256 * CORDIC Gain
 
-If (desiredAngle > ( 90*256)) Then angle = 180*256
-If (desiredAngle > (270*256)) Then angle = 360*256
+If (desiredAngle >  ( 90*256)) Then angle = 180*256
+If (desiredAngle >= (270*256)) Then angle = 360*256
 
 For i = 0 To 14
    If desiredAngle > angle Then     ' Rotate counter-clockwise
@@ -49,12 +49,12 @@ dec256(cose)
 
 Sleep ' stop, end.
 
-Sub dec256(ByVal given As Integer)  ' Generates the numeric output on the screen.
+Sub dec256(ByVal given As Integer)      ' Generates the numeric output on the screen.
 	dim As Integer temp
 	
 	If given < 0 Then
-		given = -given              ' If the result is negative, make it positive
-		Print"-";                   ' and add the '-' for the minus sign.
+		given = -given          ' If the result is negative, make it positive
+		Print"-";               ' and add the '-' for the minus sign.
 	EndIf	 
 	
 	temp = given Shr 8              ' Shift 8 places to the right, which is the same as dividing by 256.
