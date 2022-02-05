@@ -33,7 +33,7 @@ For i = 0 To 14
       Xnew  = X + yy
       Ynew  = Y - xx
       angle = angle - ATAN_Table(i)
-	EndIf
+   EndIf
 	
    X = Xnew
    Y = Ynew 
@@ -53,27 +53,27 @@ dec256(sine)
 Print "Cos = ";
 dec256(cose)
 
-Sleep
+Sleep ' stop & end program.
 
 Sub dec256(ByVal given As Integer)
-	dim As Integer temp
+   dim As Integer temp
+   
+   If given < 0 Then
+      given = -given
+      Print"-";
+   EndIf	 
 	
-	If given < 0 Then
-		given = -given
-		Print"-";
-	EndIf	 
+   temp = given Shr 8
+   Print Str(temp);
+   Print ".";
 	
-	temp = given Shr 8
-	Print Str(temp);
-	Print ".";
+   temp = given And 255
+   temp = temp * 1000
+   temp = temp / 256
 	
-	temp = given And 255
-	temp = temp * 1000
-	temp = temp / 256
+   If temp < 100 Then Print "0";
+   If temp < 10  Then Print "0";
 	
-	If temp < 100 Then Print "0";
-	If temp < 10  Then Print "0";
-	
-	Print Str(temp)
+   Print Str(temp)
 	
 End Sub
