@@ -2,7 +2,7 @@ Declare Sub dec1024(ByVal As Long)
 
 Dim Shared As Long ATAN_Table(0 To 15) => {46080, 27203, 14373, 7296, 3662, 1833, 916, 459, 229, 115, 57, 29, 14, 7, 3, 1}
 
-Dim Shared As Long angle, desiredAngle, X, Y, Xnew, Ynew, i, cose, sine ' Long = signed 32 bits
+Dim Shared As Long angle, desiredAngle, X, Y, Xnew, Ynew, i, cose, sine ' Long = signed 64 bits
 
 
 Input "Angle: ", angle
