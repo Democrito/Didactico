@@ -4,9 +4,11 @@
 
 ![](https://github.com/Democrito/Didactico/blob/main/CORDIC/BASIC/img/screen_ouput.PNG)
 
-"Sin_Cos.bas" es un programa hecho en BASIC (FreeBASIC) para resolver senos y cosenos utilizando muy pocos recursos. Tiene una precisión de dos decimales, el tercer decimal se acerca pero rara vez coincide. Sin embargo esto significa un error de menos de 0.1%, donde para la mayoría de las aplicaciones que le podamos dar es más que suficiente.
+"Sin_Cos.bas" es un programa hecho en BASIC (FreeBASIC) para resolver senos y cosenos utilizando muy pocos recursos; el formato de salida es Q8.8. Tiene una precisión de dos decimales, el tercer decimal se acerca pero rara vez coincide. Sin embargo esto significa un error de menos de 0.1%, donde para la mayoría de las aplicaciones que le podamos dar es más que suficiente.
 
-"Sin_Cos.exe" es el ejecutable para Windows. Para comprobar que el programa no contiene virus ni troyanos puedes comprobarlo desde esta web:
+"Sin_Cos_1024.bas" y su respectivo ejecutable es lo mismo que el anterior pero con formato Q10.10.
+
+"Sin_Cos.exe" es el ejecutable para Windows de "Sin_Cos.bas". Para comprobar que el programa no contiene virus ni troyanos puedes comprobarlo desde esta web:
 
 https://virusscan.jotti.org/
 
