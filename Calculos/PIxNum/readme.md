@@ -29,4 +29,4 @@ Resultado es 471. Comprueba con la calculadora que 3.141592 * 150 = 471.23889803
 Es más seguro utilizar el numero hexadecimal h0324 como constante equivalente de Pi. El valor hexadecimal h0324 es realmente en valor decimal 3.14063 con relación a Pi, realmente es 3.14159 pero existe una diferencia de menos del 0.1%. Esto para la mayoría de casos es menos que despreciable.
 
 
-Fuente original en el PDF que se encuentra aquí: https://github.com/Democrito/Didactico/blob/main/Calculos/adjuntos/BSManSpanish.pdf (No he encontrado en la web oficial este archivo y por ello lo he subido aquí, aunque en inglés lo más parecido lo he visto [aquí](https://www.egr.msu.edu/classes/me456/radcliff/homework/BSM-v2.2.pdf)).
+Fuente original en el PDF que se encuentra aquí: https://github.com/Democrito/Didactico/blob/main/Calculos/adjuntos/BSManSpanish.pdf, página 43 (No he encontrado en la web oficial este archivo y por ello lo he subido aquí, aunque en inglés lo más parecido lo he visto [aquí](https://www.egr.msu.edu/classes/me456/radcliff/homework/BSM-v2.2.pdf)).
