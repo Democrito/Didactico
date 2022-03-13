@@ -15,6 +15,8 @@ Los ángulos fijos de la tabla de arcontangentes son con respecto a estos valore
 
 La explicación de todo esto lo podrás ver en inglés aquí: https://www.eit.lth.se/fileadmin/eit/courses/eitf35/2017/CORDIC_For_Dummies.pdf
 
+![](https://github.com/Democrito/Didactico/blob/main/CORDIC/BASIC/img/atan2.PNG)
+
 "atan2_Q8_8" es un programa en el que le das dos lados de un triángulo rectángulo inscrito dentro de una circunferencia y te resuelve el ángulo (0 hasta 359). Los valores de entrada pueden ser positivos o negativos. Como es un programa y todas las variables son "integer" (32 bits con signo) el resultado te permite que la parte entera pueda ser mayor a 256 y tiene una resolución en la parte fraccionaria de dos decimales con una aproximación excelente.
 
 Para comprobar que los ejecutables no contiene virus ni troyanos puedes comprobarlo desde esta web:
