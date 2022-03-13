@@ -4,12 +4,11 @@ Instead of sqrt(x*x + y*y), I use 0.95 * max(x,y) + 0.387 * min(x,y).
 Example:
 
 // if
-
 x = 3 ; y = 4
-
 // then
-
 max = 4; min = 3
 
 hyp = (0.95 * 4) + (0.387 * 3)
 hyp =  4.961  It is a good approximation of 5 -----> hyp =  sqrt(3^2 + 4^2) = 5
+
+Works well with small numbers.
