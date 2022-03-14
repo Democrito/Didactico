@@ -17,7 +17,7 @@ La explicación de todo esto lo podrás ver en inglés aquí: https://www.eit.lt
 
 ![](https://github.com/Democrito/Didactico/blob/main/CORDIC/BASIC/img/atan2.PNG)
 
-"atan2_Qx_8" es un programa en el que le das una coordenada cartesiana (x,y) y te resuelve el ángulo (0 hasta 359). Los valores de entrada pueden ser positivos y negativos. Como es un programa y todas las variables son "integer" (32 bits con signo) el resultado te permite que la parte entera pueda ser mayor a 256 y tiene una resolución en la parte fraccionaria de dos decimales con una aproximación excelente.
+"atan2_Qx_8" es un programa en el que le das una coordenada cartesiana (x,y) y te resuelve el ángulo desde 0 hasta 359.99 Los valores de entrada pueden ser positivos y negativos. Tiene una resolución en la parte fraccionaria de dos decimales con una aproximación excelente.
 
 Para comprobar que los ejecutables no contiene virus ni troyanos puedes comprobarlo desde esta web:
 
