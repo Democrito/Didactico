@@ -1,4 +1,4 @@
-## Libros en línea sobre electrónica digital en especial y otras ramas de la física.
+## Libros online sobre electrónica en especial y otras ramas de las tecnologías.
 
 1.) https://infolibros.org/libros-de-electronica-gratis-pdf/
 
