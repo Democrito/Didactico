@@ -2,11 +2,11 @@
 
 En este ejemplo ("[**binary_search.bas**](https://github.com/Democrito/Didactico/blob/main/algoritmos/busqueda_binaria/binary_search.bas)") tenemos un array con los siguientes elementos: **{1, 2, 3, 4, 5, 10, 11, 12, 13, 14}**
 
+El orden de los valores contenidos en el array es importante que siempre estén ordenados de menor a mayor.
+
 ![](https://github.com/Democrito/Didactico/blob/main/algoritmos/busqueda_binaria/img/value_index.PNG)
 
 Podemos ver que el primer elemento es el 1, luego le sigue 2, 3, 4 y 5, y después, continúa con 10, 11, 12, 13 y 14. Estos valores están así a propósito porque el programa siempre dará un valor de índice aunque no esté el elemento buscado. Si el valor no se encuentra en la lista te dará el valor de índice mayor más cercano al valor introducido.
-
-El orden de los valores contenidos en el array es importante que siempre estén ordenados de menor a mayor.
 
 Cuando ejecutes el programa verás algo como esto:
 
