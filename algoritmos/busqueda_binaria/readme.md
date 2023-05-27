@@ -8,7 +8,7 @@ El orden de los valores contenidos en el array es importante que siempre estén 
 
 Cuando ejecutes el programa verás algo como esto:
 
-![](https://github.com/Democrito/Didactico/blob/main/algoritmos/busqueda_binaria/example.PNG)
+![](https://github.com/Democrito/Didactico/blob/main/algoritmos/busqueda_binaria/example_output.PNG)
 
 El valor de índice mínimo es siempre 0 y el valor máximo en este caso es 9 (0..9 = 10 elementos en total contenido en el array de mi ejemplo). Por eso, si buscas el valor '1', te dará como respuesta 0, porque está en la posición 0 ese '1'. Y si buscas el valor '14' (que es el último) te dará como respuesta la posición 9. En el caso de introducir un valor negativo, el valor índice más cercano es siempre 0 porque el valor índice mínimo en la tabla es '1'.
 
