@@ -7,32 +7,32 @@ Dim As Integer entrada = -1   ' Se le da cualquier valor que no sea 0 para entra
 
 While entrada <> 0            ' Para salir del programa pulsa enter sin introducir nada.
                               ' En este punto se inicializa las variables.
-    inicio = 0                ' El primer elemento siempre comienza en la posiciÛn 0.
+    inicio = 0                ' El primer elemento siempre comienza en la posici√≥n 0.
     fin    = 9                ' Cantidad total de elementos en la tabla -1.
      
     Input "------> ", entrada ' Valor_elemento a buscar en la tabla.
     
-    ' Si no encuentra el elemento buscado se sale del bucle con el valor Ìndice mayor m·s cercano.
+    ' Si no encuentra el elemento buscado se sale del bucle con el valor √≠ndice mayor m√°s cercano.
     While inicio <= fin
     	
-        medio = inicio + (fin - inicio) / 2 ' Esta fÛrmula pondr· el Ìndice "medio" a la mitad para cada ciclo de comprobaciÛn.
+        medio = inicio + (fin - inicio) / 2 ' Esta f√≥rmula pondr√° el √≠ndice "medio" a la mitad para cada ciclo de comprobaci√≥n.
 
-        ' Si el elemento est· en la posiciÛn que indica "medio", es que lo ha encontrado y se sale del bucle While e imprime "medio".
+        ' Si el elemento est√° en la posici√≥n que indica "medio", es que lo ha encontrado y se sale del bucle While e imprime "medio".
         If tabla(medio) = entrada Then
             Exit While
         End If
 
-        ' Si el elemento es mayor que el valor en la posiciÛn media, buscar en la mitad izquierda de la tabla
+        ' Si el elemento es mayor que el valor en la posici√≥n media, buscar en la mitad izquierda de la tabla
         If tabla(medio) > entrada Then
             fin = medio - 1
         
-        ' Si el elemento es mayor que el valor en la posiciÛn media, buscar en la mitad  derecha  de la tabla.
+        ' Si el elemento es mayor que el valor en la posici√≥n media, buscar en la mitad  derecha  de la tabla.
         Else
             inicio = medio + 1
         End If
     Wend
 
-    Print "index = "; medio ' imprime en pantalla el Ìndice encontrado o el Ìndice mayor m·s cercano al valor buscado.
+    Print "index = "; medio ' imprime en pantalla el √≠ndice encontrado o el √≠ndice mayor m√°s cercano al valor buscado.
 Wend 
 
 End
