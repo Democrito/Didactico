@@ -22,7 +22,7 @@ While entrada <> 0            ' Para salir del programa pulsa enter sin introduc
             Exit While
         End If
 
-        ' Si el elemento es mayor que el valor en la posición media, buscar en la mitad izquierda de la tabla
+      ' Si el elemento es menor que el valor en la posición media, buscar en la mitad izquierda de la tabla
         If tabla(medio) > entrada Then
             fin = medio - 1
         
