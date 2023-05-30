@@ -17,5 +17,7 @@ En esta imagen puedes ver ejemplos de valores de entrada y de salida:
 
 Es muy fácil convertir ángulos en senos y cosenos y meterlos en una tabla. Sin embargo, hacerlo al revés no es tan trivial. Estoy experimentando formas de hacerlo, evitando el uso de algoritmos complejos (por ejemplo la [aproximación Newton-Raphson](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arcocosine_Newton-Raphson_approximation.bas) que muchas veces tienen cálculos complicados por medio y eso significa que en una FPGA (que es donde quiero aplicar esto) ocuparía mucho espacio y ciclos de reloj. Primero hago pruebas con programación y una vez que lo tengo claro, lo paso a circuito electrónico puro. Pero lo dicho, estoy experimentado y a la vez aprendiendo cosas que en el futuro podría aplicar en otros proyectos de distinta naturaleza o mejorar los ya existentes.
 
+Si deseas compilar el programa, escrito en [*FreeBASIC*](https://es.wikipedia.org/wiki/FreeBASIC), haz [**click aquí**](https://sites.google.com/site/proyectosroboticos/instalacion-fbide). Es un IDE, eso significa que podrás editar, compilar y ejecutar el programa desde el mismo IDE.
 
-
+De los archivos que adjunto en este proyecto hay un ".exe", es decir, el ejecutable del programa que pongo de ejemplo. Si quieres comprobar de que está libre de virus y troyanos haz [**clic aquí**](https://virusscan.jotti.org/). Subes el ejecutable (.exe) antes de ejecutarlo y esa web lo analizará con los antivirus más importantes del mercado.
+ 
