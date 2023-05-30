@@ -13,6 +13,8 @@ En esta imagen puedes ver ejemplos de valores de entrada y de salida:
 
 ![](https://github.com/Democrito/Didactico/blob/main/algoritmos/busqueda_binaria_con_interpolacion/img/output.PNG)
 
+Para que el programa funciones correctamente no se debe meter valores negativos, ni superiores al valor máximo que haya en la tabla (en array que puse de ejemplo sería 2000).
+
 ### ¿Para qué puede servir esto?:
 
 Es muy fácil convertir ángulos en senos y cosenos y meterlos en una tabla. Sin embargo, hacerlo al revés no es tan trivial. Estoy experimentando formas de hacerlo, evitando el uso de algoritmos complejos (por ejemplo la [aproximación Newton-Raphson](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arcocosine_Newton-Raphson_approximation.bas) que muchas veces tienen cálculos complicados por medio y eso significa que en una FPGA (que es donde quiero aplicar esto) ocuparía mucho espacio y ciclos de reloj. Primero hago pruebas con programación y una vez que lo tengo claro, lo paso a circuito electrónico puro. Pero lo dicho, estoy experimentado y a la vez aprendiendo cosas que en el futuro podría aplicar en otros proyectos de distinta naturaleza o mejorar los ya existentes.
