@@ -5,19 +5,19 @@ Este ejemplo es una extensión de la [búsqueda binaria](https://github.com/Demo
 
 Por ejemplo, supongamos esta tabla: {0, 100, 300,...}
 
-El elemento 0 está en la posición 0, el elemento 100 está en la posición 1, y el elemento 300 está en la posición 2, etc. La posición es un índice.
+El elemento 0 está en la posición 0, el elemento 100 está en la posición 1, y el elemento 300 está en la posición 2, etc. La posición indica su índice.
 
-Si buscamos el elemento 200, como podemos ver no existe en la tabla, sin embargo podemos darle un valor de aproximación a través de los decimales. El valor 200 pertenece a un índice 1 (porque sobrepasa al 100 que es índice 1, pero no llega a 300, que sería índice 2) y para saber cuán cerca o lejos está lo que haremos es aplicar una interpolación lineal. La interpolación lineal que he usado en mi programa de ejemplo es la misma que usa Arduino con la función "map()". Es decir, que de 100 a 300 buscamos un valor que esté entre 0.0 y 1.0. Para el caso del valor 200, nos dará un índice de "1.5". El 1 es el índice al cual pertenece y el 0.5 es la interpolación entre 100 y 300. Como 200 es la mitad de camino entre 100 y 300, por ello el resultado es 0.5. Se suma el índice y la interpolación y obtenemos el resultado que buscamos (1.5).
+Si buscamos el elemento 200, como podemos ver no existe en la tabla, sin embargo podemos darle un valor de aproximación a través de decimales. El valor 200 pertenece a un índice 1 (porque es mayor de 100 que es índice 1, pero no llega a 300 que sería índice 2) y para saber cuán cerca o lejos está lo que haremos es aplicar una interpolación lineal. La interpolación lineal que he usado es la misma que usa Arduino con la función "map()". Es decir, que de 100 a 300 buscamos un valor que esté entre 0.0 y 1.0. Al interpolar 200 sobre los valores 100 y 300 nos da 0.5, porque 200 está a mitad de camino de 100 y 300. El 1 es el índice al cual pertenece 200 y el 0.5 es la interpolación. Se suma el índice y la interpolación y obtenemos el resultado que buscamos (1 + 0.5) = 1.5.
 
 En esta imagen puedes ver ejemplos de valores de entrada y de salida:
 
 ![](https://github.com/Democrito/Didactico/blob/main/algoritmos/busqueda_binaria_con_interpolacion/img/output.PNG)
 
-Para que el programa funciones correctamente no se debe meter valores negativos, ni superiores al valor máximo que haya en la tabla (en array que puse de ejemplo sería 2000).
+Para que el programa funcione correctamente no se debe meter valores negativos, ni superiores al valor máximo que haya en la tabla (en el array que puse de ejemplo sería 2000).
 
 ### ¿Para qué puede servir esto?:
 
-Es muy fácil convertir ángulos en senos y cosenos y meterlos en una tabla. Sin embargo, hacerlo al revés no es tan trivial. Estoy experimentando formas de hacerlo, evitando el uso de algoritmos complejos (por ejemplo la [aproximación Newton-Raphson](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arcocosine_Newton-Raphson_approximation.bas) que muchas veces tienen cálculos complicados por medio y eso significa que en una FPGA (que es donde quiero aplicar esto) ocuparía mucho espacio y ciclos de reloj. Primero hago pruebas con programación y una vez que lo tengo claro, lo paso a circuito electrónico puro. Pero lo dicho, estoy experimentado y a la vez aprendiendo cosas que en el futuro podría aplicar en otros proyectos de distinta naturaleza o mejorar los ya existentes.
+Es muy fácil convertir ángulos en senos y cosenos y meterlos en una tabla. Sin embargo, hacerlo al revés no es tan trivial. Estoy experimentando formas de hacerlo, evitando el uso de algoritmos complejos (por ejemplo la [aproximación Newton-Raphson](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arcocosine_Newton-Raphson_approximation.bas) que muchas veces tienen cálculos complicados de por medio y eso significa que en una FPGA (que es donde quiero aplicar esto) ocuparía mucho espacio y ciclos de reloj. Primero hago pruebas con programación y una vez que lo tengo claro, lo paso a circuito electrónico puro.
 
 Si deseas compilar el programa, escrito en [*FreeBASIC*](https://es.wikipedia.org/wiki/FreeBASIC), haz [**click aquí**](https://sites.google.com/site/proyectosroboticos/instalacion-fbide). Es un IDE, eso significa que podrás editar, compilar y ejecutar el programa desde el mismo IDE.
 
