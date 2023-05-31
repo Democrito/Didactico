@@ -10,10 +10,10 @@ Print "Para salir del programa haga clic en la X de la ventana": Print: Print
 
 While 1                       ' Para salir del programa haz clic a la X de la ventana.
                               ' En este punto se inicializa las variables.
-	inicio = 0                 ' El primer elemento siempre comienza en la posición 0.
-	fin    = 9                 ' Cantidad total de elementos en la tabla -1.
+	inicio = 0            ' El primer elemento siempre comienza en la posiciÃ³n 0.
+	fin    = 9            ' Cantidad total de elementos en la tabla -1.
 	
-	For i As Integer = 0 To 9  ' Copia la tabla en la pantalla para localizar los elementos y deducir el índice visualmente.
+	For i As Integer = 0 To 9  ' Copia la tabla en la pantalla para localizar los elementos y deducir el Ã­ndice visualmente.
 		Print "|"; Str(tabla(i));
 	Next 
 	Print "|"
@@ -21,25 +21,25 @@ While 1                       ' Para salir del programa haz clic a la X de la ve
 	
 	Input "Buscar -----> ", entrada ' Valor_elemento a buscar en la tabla.
 	 
-	' Algoritmo de búsqueda binaria.
+	' Algoritmo de bÃºsqueda binaria.
 	While inicio <= fin
 	 	
-		index = (fin + inicio) / 2 ' Esta fórmula pondrá el índice "index" a la mitad en cada ciclo de comprobación.
+		index = (fin + inicio) / 2 ' Esta fÃ³rmula pondrÃ¡ el Ã­ndice "index" a la mitad en cada ciclo de comprobaciÃ³n.
 		
-		' Si el elemento está en la posición que indica "index", es que lo ha encontrado y sale del bucle While.
+		' Si el elemento estÃ¡ en la posiciÃ³n que indica "index", es que lo ha encontrado y sale del bucle While.
 		If tabla(index) = entrada Then Exit While
 		
-		' Si el elemento es mayor que el valor en la posición media, buscar en la mitad  derecha  de la tabla.
-		' Si el elemento es menor que el valor en la posición media, buscar en la mitad izquierda de la tabla.
+		' Si el elemento es mayor que el valor en la posiciÃ³n media, buscar en la mitad  derecha  de la tabla.
+		' Si el elemento es menor que el valor en la posiciÃ³n media, buscar en la mitad izquierda de la tabla.
 		If tabla(index) > entrada Then fin = index - 1 Else inicio = index + 1
 	   
 	Wend
 	 
-	' Imprime en pantalla el índice con interpolación lineal.
+	' Imprime en pantalla el Ã­ndice con interpolaciÃ³n lineal.
 	
-	If tabla(index) > entrada Then index = index - 1 ' Cuando el índice no está en la tabla, a veces apunta bien y otras se pasa, con esta condición se ajusta el índice al que realmente le corresponde.
+	If tabla(index) > entrada Then index = index - 1 ' Cuando el Ã­ndice no estÃ¡ en la tabla, a veces apunta bien y otras se pasa, con esta condiciÃ³n se ajusta el Ã­ndice al que realmente le corresponde.
 	
-	interpolation =  (entrada - tabla(index)) / (tabla(index+1) - tabla(index)) ' Fórmula de interpolación lineal con entrada relativa.
+	interpolation =  (entrada - tabla(index)) / (tabla(index+1) - tabla(index)) ' FÃ³rmula de interpolaciÃ³n lineal con entrada relativa.
 	
 	Print "----->"; index + interpolation
 	
