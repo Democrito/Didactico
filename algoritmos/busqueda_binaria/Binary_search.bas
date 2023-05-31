@@ -1,3 +1,4 @@
+
 Dim As Integer tabla(0 To 9) = {1, 2, 3, 4, 5, 10, 11, 12, 13, 14}
 Dim As Integer inicio
 Dim As Integer fin
@@ -8,11 +9,11 @@ Dim As Integer entrada
 Print "                         Para salir del programa haz clic en la X de la ventana."
 Print 
 
-While 1                       ' Para salir del programa pulsa enter sin introducir nada.
-                              ' En este punto se inicializa las variables.
-	inicio = 0                 ' El primer elemento siempre comienza en la posición 0.
-	fin    = 9                 ' Cantidad total de elementos en la tabla -1.
-	bool   = FALSE             ' bool => false = elemento no encontrado, bool => true = elemento encontrado.
+While 1                         ' Para salir del programa haz clic en la X de la ventana.
+				' En este punto se inicializa las variables.
+	inicio = 0              ' El primer elemento siempre comienza en la posición 0.
+	fin    = 9              ' Cantidad total de elementos en la tabla -1.
+	bool   = FALSE          ' bool => false = elemento no encontrado, bool => true = elemento encontrado.
 	
 	For i As Integer = 0 To 9  ' Copia la tabla en la pantalla para localizar los elementos y deducir el índice visualmente.
 		Print "|"; Str(tabla(i));
