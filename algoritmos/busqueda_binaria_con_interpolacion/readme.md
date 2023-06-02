@@ -21,9 +21,9 @@ Es muy fácil convertir ángulos en senos y cosenos y meterlos en una tabla. Sin
 
 Dejo dos ejemplos donde aplico lo que aquí se describe aplicado al arcoseno y arcocoseno:
 
-1.) [Algoritmo arcoseno](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arcosine_binary_search_interpolation.bas)
+1.) [Algoritmo arcoseno](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arcsine_binary-search_interpolation.bas)
 
-2.) [Algoritmo arcocoseno](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arccosine_binary_search_interpolation.bas)
+2.) [Algoritmo arcocoseno](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arccosine_binary-search_interpolation.bas)
 
 Ambos programa funcionan sólo para ángulos de 0º a 90º, siempre positivos.
 
