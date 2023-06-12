@@ -19,13 +19,7 @@ Para que el programa funcione correctamente no se debe meter valores negativos, 
 
 Es muy fácil convertir ángulos en senos y cosenos y meterlos en una tabla. Sin embargo, hacerlo al revés no es tan trivial. Estoy experimentando formas de hacerlo, evitando el uso de algoritmos complejos (por ejemplo la [aproximación Newton-Raphson](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arcocosine_Newton-Raphson_approximation.bas) que muchas veces tienen cálculos complicados de por medio y eso significa que en una FPGA (que es donde quiero aplicar esto) ocuparía mucho espacio y ciclos de reloj. Primero hago pruebas con programación y una vez que lo tengo claro, lo paso a circuito electrónico puro.
 
-Dejo dos ejemplos donde aplico lo que aquí se describe aplicado al arcoseno y arcocoseno:
-
-1.) [Algoritmo arcoseno](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arcsine_binary-search_interpolation.bas)
-
-2.) [Algoritmo arcocoseno](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arccosine_binary-search_interpolation.bas)
-
-Ambos programa funcionan sólo para ángulos de 0º a 90º, siempre positivos.
+Dejo un enlace donde aplico lo que aquí se describe aplicado al [arcoseno y arcocoseno](https://github.com/Democrito/Didactico/tree/main/algoritmos/busqueda_binaria_con_interpolacion/ejemplos).
 
 Si deseas compilar el programa, escrito en [*FreeBASIC*](https://es.wikipedia.org/wiki/FreeBASIC), haz [**click aquí**](https://sites.google.com/site/proyectosroboticos/instalacion-fbide). Es un IDE, eso significa que podrás editar, compilar y ejecutar el programa desde el mismo IDE.
 
