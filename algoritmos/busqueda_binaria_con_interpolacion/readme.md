@@ -17,7 +17,7 @@ Para que el programa funcione correctamente no se debe meter valores negativos, 
 
 ### ¿Para qué puede servir esto?:
 
-Es muy fácil convertir ángulos en senos y cosenos y meterlos en una tabla. Sin embargo, hacerlo al revés no es tan trivial. Estoy experimentando formas de hacerlo, evitando el uso de algoritmos complejos (por ejemplo la [aproximación Newton-Raphson](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arcocosine_Newton-Raphson_approximation.bas) que muchas veces tienen cálculos complicados de por medio y eso significa que en una FPGA (que es donde quiero aplicar esto) ocuparía mucho espacio y ciclos de reloj. Primero hago pruebas con programación y una vez que lo tengo claro, lo paso a circuito electrónico puro.
+Es muy fácil convertir ángulos en senos y cosenos y meterlos en una tabla. Sin embargo, hacerlo al revés no es tan trivial. Estoy experimentando formas de hacerlo, evitando el uso de algoritmos complejos (por ejemplo la [aproximación Newton-Raphson](https://github.com/Democrito/repositorios/blob/master/Maths/algorithms_bas/Arccosine_Newton-Raphson_approximation.bas) que muchas veces tienen cálculos complicados de por medio y eso significa que en una FPGA (que es donde quiero aplicar esto) ocuparía mucho espacio y ciclos de reloj. Primero hago pruebas con programación y una vez que lo tengo claro, lo paso a circuito electrónico puro.
 
 Dejo un enlace donde aplico lo que aquí se describe aplicado al [arcoseno y arcocoseno](https://github.com/Democrito/Didactico/tree/main/algoritmos/busqueda_binaria_con_interpolacion/ejemplos).
 
