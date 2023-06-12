@@ -2,7 +2,7 @@ Ejemplos para calcular el arcoseno y arcocoseno aplicando el algoritmo de búsqu
 
 Cuando al programa le das un valor de entrada (seno o coseno) te responderá con el ángulo. Por ejemplo, si estamos con el arcoseno, al introducir "0.5" nos responderá "30º", "60º" sería para el arcocoseno. O si en ambos programas introducimos "0.7071" nos responderá "45º"
 
-Ambos programas tienen una resolución de 3 decimales, el resto de decimales hay que descartarlos, el tercer decimal es una aproximación muy buena.
+Ambos programas tienen una resolución de 3 decimales, el tercer decimal es una aproximación muy buena, y el resto de decimales que puedan salir hay que descartarlos. Sólo hay que fijarse en esos 3 primeros decimales, si existen.
 
 Si deseas compilar el programa, escrito en [*FreeBASIC*](https://es.wikipedia.org/wiki/FreeBASIC), haz [**click aquí**](https://sites.google.com/site/proyectosroboticos/instalacion-fbide). Es un IDE, eso significa que podrás editar, compilar y ejecutar el programa desde el mismo IDE.
 
