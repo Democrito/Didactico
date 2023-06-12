@@ -7,7 +7,7 @@ Por ejemplo, supongamos esta tabla: {0, 100, 300,...}
 
 El elemento 0 está en la posición 0, el elemento 100 está en la posición 1, y el elemento 300 está en la posición 2, etc. La posición indica su índice.
 
-Si buscamos el elemento 200, como podemos ver no existe en la tabla, sin embargo podemos darle un valor de aproximación a través de decimales. El valor 200 pertenece a un índice 1 (porque es mayor de 100 que es índice 1, pero no llega a 300 que sería índice 2) y para saber cuán cerca o lejos está lo que haremos es aplicar una interpolación lineal. Es decir, que de 100 a 300 buscamos un valor que esté entre 0.0 y 1.0. Al interpolar 200 sobre los valores 100 y 300 nos da 0.5, porque 200 está a mitad de camino de 100 y 300. El 1 es el índice al cual pertenece 200 y el 0.5 es la interpolación. Se suma el índice y la interpolación y obtenemos el resultado que buscamos (1 + 0.5) = 1.5.
+Si buscamos el elemento 200, como podemos ver no existe en la tabla, sin embargo podemos darle un valor de aproximación a través de decimales. El valor 200 pertenece a un índice 1 (porque es mayor de 100 que es índice 1, pero no llega a 300 que sería índice 2) y para saber cuán cerca o lejos está lo que haremos es aplicar una interpolación lineal relativa. Es decir, que de 100 a 300 buscamos un valor que esté entre 0.0 y 1.0. Al interpolar 200 ("200" es el valor relativo) sobre los valores 100 y 300 nos da 0.5, porque 200 está a mitad de camino de 100 y 300. El 1 es el índice al cual pertenece 200 y el 0.5 es la interpolación relativa. Se suma el índice y la interpolación y obtenemos el resultado que buscamos (1 + 0.5) = 1.5
 
 En esta imagen puedes ver ejemplos de valores de entrada y de salida:
 
