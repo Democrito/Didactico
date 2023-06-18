@@ -4,6 +4,8 @@ Cuando al programa le das un valor de entrada (seno o coseno) te responderá con
 
 Ambos programas tienen una resolución de 3 decimales, el tercer decimal es una aproximación muy buena, y el resto de decimales que puedan salir hay que descartarlos. Sólo hay que fijarse en esos 3 primeros decimales, si existen.
 
+Ambos programas son casi idénticos. El procedimiento es hallar el arcoseno y una vez que se obtiene convertirlo en arcocoseno es tan sencillo como esto: Arcocoseno = 90 - Arcoseno.
+
 Si deseas compilar el programa, escrito en [*FreeBASIC*](https://es.wikipedia.org/wiki/FreeBASIC), haz [**click aquí**](https://sites.google.com/site/proyectosroboticos/instalacion-fbide). Es un IDE, eso significa que podrás editar, compilar y ejecutar el programa desde el mismo IDE.
 
 De los archivos que adjunto en este proyecto hay un ".exe", es decir, el ejecutable del programa que pongo de ejemplo. Si quieres comprobar de que está libre de virus y troyanos haz [**clic aquí**](https://virusscan.jotti.org/). Subes el ejecutable (.exe) antes de ejecutarlo y esa web lo analizará con los antivirus más importantes del mercado.
