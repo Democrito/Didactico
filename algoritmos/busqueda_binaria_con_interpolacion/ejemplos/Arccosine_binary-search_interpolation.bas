@@ -11,8 +11,8 @@ Dim As Double  interpolation
 
 Print "To exit the program, click on the X in the window": Print: Print
 
-While 1                            ' Infinite loop
-                                   ' At this point the variables are initialized.
+While 1                                 ' Infinite loop
+                                        ' At this point the variables are initialized.
 	start =  0                      ' The first element always starts at position 0.
 	last  = 90                      ' Total number of elements in the table -1.
 	
