@@ -3,7 +3,9 @@
 
 Este ejemplo es una extensión de la [búsqueda binaria](https://github.com/Democrito/Didactico/tree/main/algoritmos/busqueda_binaria), pero en este caso, si el elemento no se encuentra en la tabla, lo que hace es aproximar el índice con decimales. Si no tienes experiencia, aunque conozcas la teoría de búsqueda binaria, te recomiendo ir a ese enlace primero. De otro modo este apartado puede ser difícil de digerir.
 
-Por ejemplo, supongamos esta tabla: {0, 100, 300,...}
+Por ejemplo, supongamos esta tabla:
+
+![](https://github.com/Democrito/Didactico/blob/main/algoritmos/busqueda_binaria_con_interpolacion/img/example_value_index.PNG)
 
 El elemento 0 está en la posición 0, el elemento 100 está en la posición 1, y el elemento 300 está en la posición 2, etc. La posición indica su índice.
 
