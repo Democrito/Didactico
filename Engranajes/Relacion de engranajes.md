@@ -10,4 +10,4 @@ Ahora vamos a simplificar paso a paso y paramos cuando la fracción no pueda ser
 
 Esto significa que el engranaje acoplado a la salida debe tener 32 dientes y el engranaje acoplado al motor de pasos debe tener 25 dientes.
 
-Ahora, cuando al motor de pasos le demos 256 pulsos, el engranaje de salida dará una vuelta exacta completa.
+Ahora, cuando al motor de pasos le demos 256 pasos, el engranaje de salida dará una vuelta exacta completa.
