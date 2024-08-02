@@ -1,8 +1,6 @@
 # Problema de relación de engranajes
 
-Imagina que tu motor de pasos es de 200 pulsos por revolución, y necesitas que cuando dé 256 pulsos por revolución sea una vuelta completa. Para ello necesitamos un piñón y un engranaje para lograrlo. Se calcula de la siguiente manera:
-
-Queremos que los 256 pulsos se correspondan con una vuelta completa. Entonces, la relación de transmisión debe convertir los 256 pulsos en los 200 pulsos necesarios para una vuelta completa del motor de pasos:
+Imagina que tu motor de pasos es de 200 pasos por revolución, y necesitas convertirlo en 256 pasos por revolución (una vuelta completa). Para ello necesitamos un piñón y un engranaje para lograrlo (dos engranajes). Se calcula de la siguiente manera:
 
 256 pulsos / 200 pulsos
 
